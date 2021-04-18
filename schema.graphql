@@ -1,6 +1,3 @@
-type Gravatar @entity {
-  id: ID!
+type KittyOwner @entity {
   owner: Bytes!
-  displayName: String!
-  imageUrl: String!
 }
